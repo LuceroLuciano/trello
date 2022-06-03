@@ -1,21 +1,21 @@
 # Preguntas
 ### 1. ¿Qué dependencias estan usando?
-- Dependencias: es6-promise, object-assign, needle
+- Dependencias: `es6-promise, object-assign, needle`
 
-- Dependencias de desarrollo: mocha, chai, sinon, sinon-chai, q
+- Dependencias de desarrollo: `mocha, chai, sinon, sinon-chai, q`
 
-### 2. ¿Cuál es e archivo pricipal?
-- package.json
+### 2. ¿Cuál es el archivo pricipal?
+- `package.json`
 
 ### 3. ¿Están usando Common JS o ESM?
 - Esta API esta usando **Common JS**, porque los modulos de  **CommoJS** son caracterizados por el `require()` para importar los modulos y `module.exports` para exportar los modulos. 
 
 ### 4. ¿Qúe framework de pruebas esta utilizando?
-- mocha, chai, sinon y sinonCha
+- `mocha, chai, sinon y sinonCha`
 
 ### 5. ¿Cómo estan diseñadas las pruebas?
 - Estan desarrolladas de acuerdo a cada paso que se sigue en trello
-1. Contar con la kay y el token
+1. Contar con la key y el token
 2. Añadir Board
 3. Copiar Board
 4. Añadir una card
@@ -31,4 +31,4 @@
 
 Para cada función que se puede realizar en trello, se crea una prueba. 
 
-### Reisar los commits del repo [ ]
+### Reisar los commits del repo []
